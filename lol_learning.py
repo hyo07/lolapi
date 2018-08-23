@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
 
 X = pd.read_csv("~/dataset.csv", index_col=0)
